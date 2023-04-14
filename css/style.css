@@ -1,0 +1,176 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+}
+nav {
+  width: 100vw;
+  height: 10vh;
+  margin-bottom: 84px;
+  background-color: black;
+  display: flex;
+}
+ul {
+  width: 40vw;
+  background-color: hsl(40, 14%, 91%);
+  margin: auto;
+  text-align: center;
+  display: flex;
+  border-radius: 8px;
+}
+li {
+  display: inline-block;
+  margin: auto;
+  padding: 8px;
+  text-transform: uppercase;
+}
+.hero {
+  width: 60vw;
+  height: 60vh;
+  display: flex;
+  margin-top: 28px;
+}
+.hero-content {
+  position: relative;
+  background-image: url(../img/alicefondo.jpg);
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  box-shadow: 10px 10px 40px 10px rgba(0, 0, 0, 0.78);
+}
+header {
+  margin: auto;
+  width: 80vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+}
+figcaption {
+  display: flex;
+  align-content: space-around;
+  width: 100%;
+  justify-content: center;
+}
+h3 {
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: x-large;
+  justify-content: flex-end;
+  margin-top: 32px;
+  width: 148px;
+}
+p {
+  text-align: justify;
+  width: 40vw;
+  margin: 32px;
+}
+img {
+  width: 500px;
+  height: 500px;
+  box-shadow: 0px 0px 30px 20px rgba(255, 255, 255, 1) inset;
+}
+.directores {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 60vw;
+  height: 100vh;
+}
+.figure1 {
+  box-shadow: inset 0px 0px 30px 20px #ffffff;
+  border-radius: 200px;
+  background: url(../img/wash-westmoreland.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+.figure2 {
+  box-shadow: inset 0px 0px 30px 20px #ffffff;
+  border-radius: 200px;
+  background: url(../img/richard-glatzer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+}
+article {
+  display: flex;
+  margin-bottom: 100px;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 90px;
+}
+.fotos {
+  display: flex;
+  width: 70vw;
+  margin: auto;
+  position: relative;
+  left: 84px;
+}
+.collage {
+  display: inline-block;
+  width: 200px;
+  height: 150px;
+  border: orange 4px solid;
+  margin: 4px;
+}
+.collage:first-child {
+  background: url(../img/01.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage:nth-child(2) {
+  background: url(../img/02p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage:nth-child(3) {
+  background: url(../img/03p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage:nth-child(4) {
+  background: url(../img/04p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage:nth-child(5) {
+  background: url(../img/05p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage:nth-child(6) {
+  background: url(../img/06p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage:nth-child(7) {
+  background: url(../img/07pn.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.collage:nth-child(8) {
+  background: url(../img/08p.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  background-color: black;
+  width: 100vw;
+  color: aliceblue;
+  font-size: larger;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8px;
+}
