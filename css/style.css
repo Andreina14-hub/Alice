@@ -141,11 +141,11 @@ article {
 .title {
   display: flex;
   justify-content: space-between;
-  margin-right: 90px;
 }
 .fotos {
-  width: 70vw;
+  width: 68vw;
   margin: auto;
+  display: flex;
 }
 .collage {
   display: inline-block;
@@ -193,6 +193,11 @@ article {
   background: url(../img/08p.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+}
+.ct-collage {
+  margin-left: 62px;
+  display: flex;
+  flex-wrap: wrap;
 }
 footer {
   background-color: black;
