@@ -2,10 +2,35 @@
   margin: 0;
   padding: 0;
 }
-body {
+body main {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
 }
+div {
+  width: 100%;
+  height: 100px;
+}
+.parallax {
+  background-image: url("../img/aliceparallax.jpg");
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 16px;
+}
+.parallax2 {
+  background-image: url("../img/parallax2.jpg");
+  height: 100%;
+  width: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 16px;
+}
+/* navegador */
 nav {
   width: 100vw;
   height: 10vh;
@@ -27,6 +52,7 @@ li {
   padding: 8px;
   text-transform: uppercase;
 }
+
 .hero {
   width: 60vw;
   height: 60vh;
@@ -82,7 +108,13 @@ img {
   flex-direction: column;
   margin: auto;
   width: 60vw;
-  height: 100vh;
+}
+.directores p {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.8) 99.99%,
+    rgba(217, 217, 217, 0) 100%
+  );
 }
 .figure1 {
   box-shadow: inset 0px 0px 30px 20px #ffffff;
@@ -112,11 +144,8 @@ article {
   margin-right: 90px;
 }
 .fotos {
-  display: flex;
   width: 70vw;
   margin: auto;
-  position: relative;
-  left: 84px;
 }
 .collage {
   display: inline-block;
@@ -167,10 +196,12 @@ article {
 }
 footer {
   background-color: black;
-  width: 100vw;
+}
+.text {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
   color: aliceblue;
   font-size: larger;
-  display: flex;
-  justify-content: center;
   padding-bottom: 8px;
 }
